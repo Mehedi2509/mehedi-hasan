@@ -1,24 +1,20 @@
-import { useState } from "react";
+import AboutMe from "../components/about/AboutMe";
+import MyServices from "../components/about/MyServices";
+import MySkill from "../components/about/MySkill";
+import Title from "../components/home/Title";
+
 
 const About = () => {
-  const [name, setName] = useState(''); 
-const handleSubmit = (event) => { 
-event.preventDefault(); 
-console.log(name); 
-} 
-
-    
   return (
-    <div> 
-      <form onSubmit={handleSubmit}> 
-<input type="text" value={name} onChange={(e) => setName(e.target.value)} /> 
-<button type="submit">Submit</button> 
-</form>
-
-</div> 
-
-
-  )
+    <section id="about" className="w-full">
+      <Title title="About" subTitle="Me" />
+      <AboutMe />
+      <Title title="My" subTitle="Services" />
+      <MyServices />
+      <Title title="My" subTitle="Skills" />
+      <MySkill />
+    </section>
+  );
 }
 
 export default About
