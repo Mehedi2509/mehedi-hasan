@@ -6,13 +6,14 @@ export default {
   ],
   theme: {
     colors: {
-        'transparent ': "transparent ",
+        'transparent': "transparent",
         'black': "#000000",
         'bodyColor': "#191919",
         'textColor': "rgba(255, 255, 255, 0.85)",
         'designColor': "#edff20",
         'titleRoundBg': "linear-gradient(135deg,rgba(120,204,109,.15) 0%,rgba(120,204,109,1%) 100%)",
         'gray-200': "#e5e7eb",
+        'gray-700': "#374151",
         'gray-800': "#1f2937",
         'zinc-400': "#a1a1aa",
         'zinc-500': "#71717a",
@@ -88,6 +89,10 @@ export default {
       }],
       'base': ['1rem', {
         lineHeight: 'normal',
+        letterSpacing: 'normal'
+      }],
+      'sm': ['0.875rem', {
+        lineHeight: '1.25rem',
         letterSpacing: 'normal'
       }],
       'xs': ['0.75rem', {

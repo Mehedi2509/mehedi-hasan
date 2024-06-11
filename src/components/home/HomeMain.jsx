@@ -18,12 +18,14 @@ const HomeMain = () => {
   return (
     <div className="w-full lgl:w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShwdow z-10">
     <div className="w-full h-3/5">
+    <div className="image relative w-full h-[400px] md:h-[700px] lg:h-[350px] xl:h-[400px] overflow-hidden rounded-2xl">
       <img
-        className="w-full h-full object-cover rounded-2xl"
+        className="absolute top-0 left-0 w-full h-full object-cover"
         src={bannerImgTwo}
         loading="priority"
         alt="bannerImage"
       />
+    </div>
     </div>
     <div className="w-full h-2/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl">
       <div className="flex flex-col items-center gap-2 py-10">

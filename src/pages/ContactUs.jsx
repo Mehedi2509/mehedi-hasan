@@ -75,13 +75,13 @@ const ContactUs = () => {
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
               Address:
             </span>
-            Muscat, Oman
+            Bogura, Bangladesh
           </p>
           <p className="flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
-              Phone:
+              WhatsApp:
             </span>
-            +968 97859628
+            +880 1645-374554
           </p>
         </div>
         <div className="w-full lgl:w-1/2">
@@ -89,7 +89,7 @@ const ContactUs = () => {
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
               Email:
             </span>
-            noor.jsdivs@gmail.com
+            mehedi25092@gmail.com
           </p>
           <p className="flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">

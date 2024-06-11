@@ -18,9 +18,10 @@ import HomeMain from "../components/home/HomeMain";
 
 function MainLayouts() {
     return (
-        <div className="w-full lgl:h-screen font-bodyfont overflow-hidden text-textColor bg-black relative">
+        <div className="w-full font-bodyfont overflow-hidden text-textColor bg-black relative py-6 lg:py-[120px]">
+            <div className="container">
             <div className="max-w-screen-2xl h-full mx-auto flex justify-center items-center">
-                <div className="w-full lgl:w-[85%] h-full lgl:h-[85%] bg-transparent text-white z-50 flex items-start justify-between p-4 lgl:p-0">
+                <div className="w-full h-full lgl:h-[85%] bg-transparent text-white z-50 flex items-start justify-between sm:px-4 lgl:p-0">
                     {/* ================= Navbar Start here ======================== */}
                     <div className="w-16 h-96 bg-transparent hidden lgl:flex flex-col gap-4">
                         <div className="w-full h-80 bg-bodyColor rounded-3xl flex flex-col items-center justify-between py-6">
@@ -61,7 +62,7 @@ function MainLayouts() {
                         {/* ======================== Home Left Start here ============================ */}
                         <HomeMain />
                         {/* ======================== Home Left End here ============================== */}
-                        <div className="w-full lgl:w-8/12 h-[95%] bg-bodyColor rounded-2xl flex justify-center items-center">
+                        <div className="w-full lgl:w-3/4 h-[95%] bg-bodyColor rounded-2xl flex justify-center items-center">
                         {/* ======================== Smaller device content Start ======================== */}
                         <div className="w-full h-full lgl:hidden bg-transparent rounded-2xl flex flex-col gap-6">
                             <About />
@@ -71,7 +72,7 @@ function MainLayouts() {
                             <ContactUs />
                         </div>
                         {/* ======================== Smaller device content End ========================== */}
-                        <div className="w-full h-[96%] hidden lgl:flex justify-center overflow-y-scroll scrollbar-thin scrollbar-thumb-[#646464]">
+                        <div className="w-full h-[600px] hidden lgl:flex justify-center xl:p-6 overflow-y-scroll scrollbar-thin scrollbar-thumb-[#646464]">
                             <Outlet/>
                         </div>
                         </div>
@@ -84,6 +85,7 @@ function MainLayouts() {
                 <RoundThree />
                 <RoundFour />
                 <RoundFive />
+            </div>
             </div>
         </div>
     )
